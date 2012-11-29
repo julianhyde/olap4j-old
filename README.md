@@ -76,32 +76,27 @@ but some parts of the olap4j project will remain considered as experimental,
 thus subject to change in future releases. 
 
 Core packages are as follows:
-* org.olap4j.driver.xmla - Generic XML/A driver.
-* org.olap4j.mdx - Core objects of the MDX model.
-* org.olap4j.mdx.parser - Parser for the MDX query language.
-* org.olap4j.metadata - Discovery of an OLAP server's metadata.
-* org.olap4j.type - System for the core MDX object model and the metadata package.
+* <a href="http://www.olap4j.org/api/org/olap4j/driver/xmla/package.html">org.olap4j.driver.xmla</a> - Generic XML/A driver.
+* <a href="http://www.olap4j.org/api/org/olap4j/mdx/package.html">org.olap4j.mdx</a> - Core objects of the MDX model.
+* <a href="http://www.olap4j.org/api/org/olap4j/mdx/parser/package.html">org.olap4j.mdx.parser</a> - Parser for the MDX query language.
+* <a href="http://www.olap4j.org/api/org/olap4j/metadata/package.html">org.olap4j.metadata</a> - Discovery of an OLAP server's metadata.
+* <a href="http://www.olap4j.org/api/org/olap4j/type/package.html">org.olap4j.type</a> - System for the core MDX object model and the metadata package.
 
 The following packages are considered experimental and are subject to change:
-* org.olap4j.query - Programmatic Query Model.
-* org.olap4j.transform - Core MDX object model transformation utilities.
-* org.olap4j.layout - Utility classes to display CellSets.
-* org.olap4j.CellSetListener and all associated classes - Event-based system for real time updates of CellSet objects.
-* org.olap4j.Scenario and all associated classes - Statistical simulations module.
+* <a href="http://www.olap4j.org/api/org/olap4j/query/package.html">org.olap4j.query</a> - Programmatic Query Model.
+* <a href="http://www.olap4j.org/api/org/olap4j/transform/package.html">org.olap4j.transform</a> - Core MDX object model transformation utilities.
+* <a href="http://www.olap4j.org/api/org/olap4j/layout/package.html">org.olap4j.layout</a> - Utility classes to display CellSets.
+* <a href="http://www.olap4j.org/api/org/olap4j/CellSetListener.html">org.olap4j.CellSetListener</a> and all associated classes - Event-based system for real time updates of CellSet objects.
+* <a href="http://www.olap4j.org/api/org/olap4j/Scenario.html">org.olap4j.Scenario</a> and all associated classes - Statistical simulations module.
 
 More information
 ================
-
-If you have downloaded a release:
-* <a href="README.txt">README.txt</a> describes the release structure.
-* <a href="CHANGES.txt">CHANGES.txt</a> describes what has changed in the release.
-* The VERSION.txt file holds the version number of the release.
 
 General project information:
 * License: <a href="NOTICE">Apache License, Version 2.0</a>.
 * Lead developers: <a href="https://github.com/julianhyde">Julian Hyde</a>, <a href="https://github.com/lucboudreau">Luc Boudreau</a>.
 * Project page: http://www.olap4j.org
-* Specification: doc/olap4j_fs.html
+* Specification: <a href="doc/olap4j_fs.html">olap4j_fs.html</a>.
 * Javadoc: http://www.olap4j.org/api
 * Source code: http://github.com/julianhyde/olap4j
 * Developers list: https://lists.sourceforge.net/lists/listinfo/olap4j-devel
@@ -110,3 +105,8 @@ General project information:
 Related projects:
 * <a href="https://github.com/pentaho/mondrian">Mondrian</a>
 * <a href="https://github.com/julianhyde/olap4j-xmlaserver">olap4j-xmlaserver</a>
+
+If you have downloaded a release:
+* <a href="README.txt">README.txt</a> describes the release structure.
+* <a href="CHANGES.txt">CHANGES.txt</a> describes what has changed in the release.
+* The VERSION.txt file holds the version number of the release.
