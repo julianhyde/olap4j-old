@@ -75,22 +75,14 @@ The core API of olap4j version 1.0 is a Long Term Support (LTS) release,
 but some parts of the olap4j project will remain considered as experimental,
 thus subject to change in future releases. 
 
-Core packages
-=============
-
-The core packages in olap4j-1.0 are as follows.
-
+Core packages are as follows:
 * org.olap4j.driver.xmla - Generic XML/A driver.
 * org.olap4j.mdx - Core objects of the MDX model.
 * org.olap4j.mdx.parser - Parser for the MDX query language.
 * org.olap4j.metadata - Discovery of an OLAP server's metadata.
 * org.olap4j.type - System for the core MDX object model and the metadata package.
 
-Experimental packages
-=====================
-
-The following packages are considered experimental and are subject to change.
-
+The following packages are considered experimental and are subject to change:
 * org.olap4j.query - Programmatic Query Model.
 * org.olap4j.transform - Core MDX object model transformation utilities.
 * org.olap4j.layout - Utility classes to display CellSets.
@@ -102,16 +94,19 @@ More information
 
 If you have downloaded a release:
 * <a href="README.txt">README.txt</a> describes the release structure.
-* The VERSION.txt file holds the version number of the release.
 * <a href="CHANGES.txt">CHANGES.txt</a> describes what has changed in the release.
+* The VERSION.txt file holds the version number of the release.
 
 General project information:
-* License: Apache License, Version 2.0.
+* License: <a href="NOTICE">Apache License, Version 2.0</a>.
 * Lead developers: <a href="https://github.com/julianhyde">Julian Hyde</a>, <a href="https://github.com/lucboudreau">Luc Boudreau</a>.
-* Project page: <a href="http://www.olap4j.org">olap4j.org</a>.
+* Project page: http://www.olap4j.org
+* Specification: doc/olap4j_fs.html
 * Javadoc: http://www.olap4j.org/api
 * Source code: http://github.com/julianhyde/olap4j
 * Developers list: https://lists.sourceforge.net/lists/listinfo/olap4j-devel
 * Forum: http://sourceforge.net/p/olap4j/discussion/577988/
 
-# End README.md
+Related projects:
+* <a href="https://github.com/pentaho/mondrian">Mondrian</a>
+* <a href="https://github.com/julianhyde/olap4j-xmlaserver">olap4j-xmlaserver</a>
