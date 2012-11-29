@@ -1,9 +1,12 @@
 *~
+*.iml
+.idea/
 VERSION.txt
 bin/
 dist/
 doc/olap4j_api.pdf
 lib/
+out/
 src/org/olap4j/driver/xmla/XmlaOlap4jDriverVersion.java
 src/org/olap4j/mdx/parser/impl/MdxParserImpl.java
 src/org/olap4j/mdx/parser/impl/MdxParserImplConstants.java
