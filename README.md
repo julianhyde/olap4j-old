@@ -3,6 +3,20 @@ olap4j
 
 Olap4j is an open Java API for accessing OLAP data.
 
+It is an extension to JDBC. For example, its
+<a href="http://www.olap4j.org/api/org/olap4j/OlapConnection.html">OlapConnection</a>
+class extends
+<a href="http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html">java.sql.Connection</a>,
+from which you can create an
+<a href="http://www.olap4j.org/api/org/olap4j/OlapStatement.html">OlapStatement</a>,
+and execute to create a
+<a href="http://www.olap4j.org/api/org/olap4j/CellSet.html">CellSet</a>
+(analogous to a
+<a href="http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html">java.sql.ResultSet</a>).
+There are also similar mechanisms for browsing metadata.
+As a result, olap4j is easy to learn if you have JDBC
+experience and know a little about OLAP.
+
 Prerequisites
 =============
 
@@ -21,7 +35,7 @@ Writing a simple program
 ========================
 
 You can now write and run a simple program against olap4j. For example, under
-Java 1.6 or later,
+Java 1.6 or later, you can write:
 
 ```java
 import org.olap4j.*;
