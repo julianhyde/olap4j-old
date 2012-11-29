@@ -1,0 +1,14 @@
+VERSION.txt
+bin/
+dist/
+doc/olap4j_api.pdf
+lib/
+src/org/olap4j/driver/xmla/XmlaOlap4jDriverVersion.java
+src/org/olap4j/mdx/parser/impl/MdxParserImpl.java
+src/org/olap4j/mdx/parser/impl/MdxParserImplConstants.java
+src/org/olap4j/mdx/parser/impl/MdxParserImplTokenManager.java
+src/org/olap4j/mdx/parser/impl/ParseException.java
+src/org/olap4j/mdx/parser/impl/SimpleCharStream.java
+src/org/olap4j/mdx/parser/impl/Token.java
+src/org/olap4j/mdx/parser/impl/TokenMgrError.java
+testlib/
